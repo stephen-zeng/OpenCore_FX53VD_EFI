@@ -31,6 +31,9 @@ I have tried to work on the SSDT file,but it was not working either.And I sincer
 ![](https://raw.githubusercontent.com/stephen-zeng/img/master/img/202301061638870.png)
 ~~Fuck the cooling system!~~
 
+## Graphics ##
+![](https://raw.githubusercontent.com/stephen-zeng/img/master/img/202301061702786.png)
+
 ## Audio ##
 ![](https://raw.githubusercontent.com/stephen-zeng/img/master/img/202301061629543.png)
 ![](https://raw.githubusercontent.com/stephen-zeng/img/master/img/202301061630618.png)
