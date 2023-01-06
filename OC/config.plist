@@ -673,6 +673,8 @@
 				<string>UTBMap.kext</string>
 				<key>Enabled</key>
 				<true/>
+				<key>ExecutablePath</key>
+				<string></string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -1558,6 +1560,8 @@
 			<integer>0</integer>
 			<key>HibernateMode</key>
 			<string>Auto</string>
+			<key>HibernateSkipsPicker</key>
+			<true/>
 			<key>HideAuxiliary</key>
 			<true/>
 			<key>LauncherOption</key>
@@ -1697,6 +1701,8 @@
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>OpenShell.efi</string>
 				<key>Path</key>
@@ -1717,6 +1723,8 @@
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>CleanNvram.efi</string>
 				<key>Path</key>
@@ -1737,6 +1745,8 @@
 				<true/>
 				<key>Flavour</key>
 				<string>Auto</string>
+				<key>FullNvramAccess</key>
+				<false/>
 				<key>Name</key>
 				<string>modGRUBShell.efi</string>
 				<key>Path</key>
@@ -1798,6 +1808,8 @@
 		</dict>
 		<key>LegacyOverwrite</key>
 		<false/>
+		<key>WriteFlash</key>
+		<true/>
 		<key>LegacySchema</key>
 		<dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
@@ -1826,8 +1838,6 @@
 				<string>BootOrder</string>
 			</array>
 		</dict>
-		<key>WriteFlash</key>
-		<true/>
 	</dict>
 	<key>PlatformInfo</key>
 	<dict>
@@ -1842,7 +1852,7 @@
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02721500J9J1JHA8</string>
+			<string>C02744270GUJ1JHJA</string>
 			<key>ProcessorType</key>
 			<integer>1797</integer>
 			<key>ROM</key>
@@ -1854,9 +1864,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02TR5Y6HTD5</string>
+			<string>C02VMAYRHTD5</string>
 			<key>SystemUUID</key>
-			<string>62F91FDF-28C9-44D7-BD92-87D154B104B5</string>
+			<string>C6A565CA-1B61-4CF2-80C1-51A17578BA6F</string>
 		</dict>
 		<key>PlatformNVRAM</key>
 		<dict>
@@ -1867,13 +1877,13 @@
 			<key>FirmwareFeaturesMask</key>
 			<data>f/8f/wgAAAA=</data>
 			<key>MLB</key>
-			<string>C02721500J9J1JHA8</string>
+			<string>C02744270GUJ1JHJA</string>
 			<key>ROM</key>
 			<data>jMaBoOJo</data>
 			<key>SystemSerialNumber</key>
-			<string>C02TR5Y6HTD5</string>
+			<string>C02VMAYRHTD5</string>
 			<key>SystemUUID</key>
-			<string>62F91FDF-28C9-44D7-BD92-87D154B104B5</string>
+			<string>C6A565CA-1B61-4CF2-80C1-51A17578BA6F</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1915,6 +1925,12 @@
 			<integer>50</integer>
 			<key>KeySubsequentDelay</key>
 			<integer>5</integer>
+			<key>PointerDwellClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellDoubleClickTimeout</key>
+			<integer>0</integer>
+			<key>PointerDwellRadius</key>
+			<integer>0</integer>
 			<key>PointerPollMask</key>
 			<integer>-1</integer>
 			<key>PointerPollMin</key>
@@ -1962,6 +1978,8 @@
 				<string>OpenHfsPlus.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenHfsPlus.efi</string>
 			</dict>
@@ -1972,6 +1990,8 @@
 				<string>OpenRuntime.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenRuntime.efi</string>
 			</dict>
@@ -1982,6 +2002,8 @@
 				<string>OpenCanopy.efi</string>
 				<key>Enabled</key>
 				<true/>
+				<key>LoadEarly</key>
+				<false/>
 				<key>Path</key>
 				<string>OpenCanopy.efi</string>
 			</dict>
