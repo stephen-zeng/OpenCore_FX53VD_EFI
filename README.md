@@ -29,7 +29,7 @@ I have tried to work on the SSDT file,but it was not working either.And I sincer
 
 ## Boost ##
 ![](https://raw.githubusercontent.com/stephen-zeng/img/master/img/202301061638870.png)
-~~ The cooling system is so fking terrible!  ~~
+~~Fuck the cooling system!~~
 
 ## Audio ##
 ![](https://raw.githubusercontent.com/stephen-zeng/img/master/img/202301061629543.png)
